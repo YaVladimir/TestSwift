@@ -7,6 +7,12 @@
 //
 
 import Foundation
+let firstName, lastName:String!;
 
-print("Hello, World!")
+print("Hello my friend! What is your first name?")
+firstName = readLine();
 
+print("And last name?")
+lastName = readLine();
+
+print("Your full name is \(firstName!) \(lastName!)")

@@ -4,4 +4,7 @@ public class Math {
   String action = args[1];
   Integer b = Integer.valueOf(args[2]);
  }
+ public static Integer subtraction(Integer a, Integer b) {
+  return a * b;
+ }
 }

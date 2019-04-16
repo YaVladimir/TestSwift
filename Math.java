@@ -15,4 +15,7 @@ public class Math {
  public static Integer subtraction(Integer a, Integer b) {
   return a * b;
  }
+ public static Integer addition(Integer a, Integer b){
+  return a + b;
+ }
 }

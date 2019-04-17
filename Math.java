@@ -14,6 +14,7 @@ public class Math {
    default:
     System.out.printf("Unknown operator: %s\n", action);
     break;
+   System.out.println("OLOLOLOLO");
   }
  System.out.printf("Result: %d\n.", r);
  }
